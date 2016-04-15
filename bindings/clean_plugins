@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/data/data/com.termux/files/usr/bin/env bash
 
 # Tmux key-binding script.
 # Scripts intended to be used via the command line are in `bin/` directory.
