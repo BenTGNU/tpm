@@ -1,10 +1,10 @@
-# Tmux Plugin Manager
+# Tmux Plugin Manager (for Termux)
 
 [![Build Status](https://travis-ci.org/tmux-plugins/tpm.png?branch=master)](https://travis-ci.org/tmux-plugins/tpm)
 
 Installs and loads TMUX plugins.
 
-Tested and working on Linux, OSX, and Cygwin.
+Tested and working on Android/Termux.
 
 ### Installation
 
@@ -12,7 +12,7 @@ Requirements: `tmux` version 1.9 (or higher), `git`, `bash`.
 
 Clone TPM:
 
-    $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    $ git clone https://github.com/BenTGNU/tpm ~/.tmux/plugins/tpm
 
 Put this at the bottom of `.tmux.conf`:
 
@@ -78,26 +78,16 @@ this:
 - [Changing plugins install dir](docs/changing_plugins_install_dir.md)
 - [Automatic TPM installation on a new machine](docs/automatic_tpm_installation.md)
 
-### Tests
-
-Tests for this project run on [travis](https://travis-ci.org/tmux-plugins/tpm).
-
-When run locally, [vagrant](https://www.vagrantup.com/) is required.
-Run tests with:
-
-    # within project directory
-    $ ./run_tests
-
 ### Other goodies
 
-- [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat) - a plugin for
-  regex searches in tmux and fast match selection
-- [tmux-yank](https://github.com/tmux-plugins/tmux-yank) - enables copying
-  highlighted text to system clipboard
-- [tmux-open](https://github.com/tmux-plugins/tmux-open) - a plugin for quickly
-  opening highlighted file or a url
-- [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) - automatic
-  restoring and continuous saving of tmux env
+- [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible) - a set of 
+  tmux options that should be acceptable to everyone
+- [tmux-online-status](https://github.com/tmux-plugins/tmux-online-status) - a 
+  plugin that enables displaying online status for your workstation
+- [tmux-cpu](https://github.com/tmux-plugins/tmux-cpu) - enables displaying 
+  cpu percentage and status icon in Tmux status-right
+- [tmux-battery](https://github.com/tmux-plugins/tmux-battery) - enables 
+  displaying battery percentage and status icon in tmux status-right
 
 You might want to follow [@brunosutic](https://twitter.com/brunosutic) on
 twitter if you want to hear about new tmux plugins or feature updates.
